@@ -10,7 +10,6 @@
 <body>
   <div id="map"></div>
 
-  <!-- Painel de botões -->
   <div id="controls">
     <button onclick="marcarFeita()">✅ Marcar como Feita</button>
     <button onclick="marcarFazer()">❌ Marcar como A Fazer</button>
@@ -18,11 +17,11 @@
     <button onclick="salvarProgresso()">💾 Salvar Progresso</button>
   </div>
 
-  <!-- Legenda -->
   <div id="legend">
     <h4>Legenda</h4>
     <p><span style="background: red;"></span> Rua a Fazer</p>
     <p><span style="background: green;"></span> Rua Feita</p>
+    <p><span style="background: blue;"></span> Rua Selecionada</p>
   </div>
 
   <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
@@ -30,3 +29,4 @@
   <script src="script.js"></script>
 </body>
 </html>
+
